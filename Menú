@@ -1,0 +1,86 @@
+//Un día mas
+
+#include <iostream>
+
+using namespace std;
+
+void Creditos(){
+    cout << "Desarrollado por: Ricardo Arturo Valles Hernández" << endl;
+    cout << "Versión 1.0 23/Nov/2023" << endl;
+    
+}
+
+int main()
+{
+    int Menu = 1;
+    
+    cout<<"Un Día Mas \n \n \n \n";
+    cout<<"Menú\n1. Nueva partiva\n2. De que trata??\n3. No se jugar :c\n4. Creditos \n5. Salir del juego\n";
+    
+    cin >> Menu;
+    
+    switch(Menu)
+    {
+        case 1:
+        if (Menu == 1){
+            cout<<"Presiona \"s\" en cualquier momento de la partida para salir";
+        }
+        
+        case 2:
+        if (Menu == 2){
+            
+            cout <<"\t\t///////////////////////////////////////////////\n";
+            cout <<"\t\t//        Bienvenido a 'Un Día Más'          //\n";
+            cout <<"\t\t///////////////////////////////////////////////\n\n";
+
+            cout << "En el insondable reino del terror psicológico, nuestro protagonista\n";
+            cout << "se encuentra atrapado en un loop temporal aparentemente interminable.\n";
+            cout << "Lo que al principio parecía una aventura divertida pronto se convierte\n";
+            cout << "en un viaje desgarrador hacia lo desconocido.\n\n";
+
+            cout << "Cada día se repite, una y otra vez, en un ciclo sin fin. A medida que\n";
+            cout << "nuestro héroe explora este enigma temporal, descubre con horror que sus\n";
+            cout << "acciones no tienen repercusiones, ni para él ni para aquellos que lo rodean.\n\n";
+
+            cout << "La euforia inicial de la novedad da paso a una profunda inquietud. ¿Cuál\n";
+            cout << "es el propósito de este eterno retorno? ¿Está atrapado en una trampa temporal\n";
+            cout << "sin salida? La línea entre la realidad y la ilusión se desdibuja, llevando al\n";
+            cout << "protagonista a cuestionar su propia cordura.\n\n";
+
+            cout << "En 'Un Día Más', la repetición no es solo un juego con el tiempo, sino\n";
+            cout << "también un juego con la mente. El horror psicológico se entrelaza con la\n";
+            cout << "narrativa, creando una experiencia inquietante mientras nuestro héroe lucha\n";
+            cout << "por comprender la verdadera naturaleza de su existencia.\n\n";
+
+            cout << "¿Podrá el protagonista encontrar una salida de este loop incesante, o\n";
+            cout << "sucumbirá a la oscura realidad de su propia percepción distorsionada?\n\n";
+
+            cout << "Prepárate para adentrarte en un mundo donde el miedo surge no solo de lo\n";
+            cout << "desconocido, sino también de la inquietante falta de cambio. Cada día es\n";
+            cout << "simplemente un eco aterrador de 'Un Día Más'. ¿Estás listo para enfrentar\n";
+            cout << "tus propios demonios internos en este juego de terror psicológico?\n\n";
+
+            cout <<"\t\t/////////////////////////////////////////////\n";
+            cout <<"\t\t//             ¡Buena suerte!              //\n";
+            cout <<"\t\t/////////////////////////////////////////////\n";
+        }
+        
+        case 3:
+        if (Menu == 3){
+            cout << "'Un Día Más' es un juego de elecciones, en donde tendras que elegir\n";
+            cout << "entre opciones. Para esto tendras que presionar un número en tu \n";
+            cout << "dependiendo de la opción que quieras seleccionar :D\n\n";
+            cout << "Una vez sabido esto. Estas listo para la aventura???";
+        }
+        
+        case 4:
+        if (Menu == 4){
+        Creditos();
+        }
+        
+        default:
+        break;
+    }
+    
+    return 0;
+}
