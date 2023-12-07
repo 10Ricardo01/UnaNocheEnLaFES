@@ -1,0 +1,56 @@
+#include <iostream>
+
+using namespace std;
+
+void Creditos(){
+    cout << "Desarrollado por: Ricardo Arturo Valles Hernández" << endl;
+    cout << "Versión 1.0 23/Nov/2023" << endl;
+    
+}
+
+int main()
+{
+    int Menu = 1;
+    
+    cout<<"\n \n \n \n";
+    cout<<"Menú\n1. Nueva partiva\n2. De que trata??\n3. No se jugar :c\n4. Creditos \n5. Salir del juego\n";
+    
+    cin >> Menu;
+    
+    switch(Menu)
+    {
+        case 1:
+        if (Menu == 1){
+            cout<<"Presiona \"s\" en cualquier momento de la partida para salir";
+        }
+        
+        case 2:
+        if (Menu == 2){
+            
+            cout <<"\t\t///////////////////////////////////////////////\n";
+            cout <<"\t\t//        Bienvenido a '" juego "          //\n";
+            cout <<"\t\t///////////////////////////////////////////////\n\n";
+
+            cout << "\n";
+            
+            cout <<"\t\t/////////////////////////////////////////////\n";
+            cout <<"\t\t//             ¡Buena suerte!              //\n";
+            cout <<"\t\t/////////////////////////////////////////////\n";
+        }
+        
+        case 3:
+        if (Menu == 3){
+            cout << "'";
+        }
+        
+        case 4:
+        if (Menu == 4){
+        Creditos();
+        }
+        
+        default:
+        break;
+    }
+    
+    return 0;
+}
